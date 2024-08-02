@@ -7,8 +7,8 @@
 }
 
 .lista-contactos{
-    background-color: blue;
-    color: white;
+    background-color: #fff;
+    color: #1b1f21;
     width: 20vh;
     min-height: 100vh;
     min-width: 200px;
@@ -16,7 +16,7 @@
 }
 
 .imagen-grande{
-    background-color: lightpink;
+    background-color: #e8ebe4;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -26,7 +26,7 @@
 }
 
 .imagen-grande img{
-    width: 30%;
+    width: 20%;
 }
 
 .usuario-conectado{
@@ -38,7 +38,12 @@
 
 .opciones-usuario-conectado{
     display: flex;
-    justify-content: end;
+    justify-content: end;    
+}
+
+.opciones-usuario-conectado i{
+    margin: 5px;
+    color: gray;
 }
 
 .datos-usuario-conectado{
@@ -51,10 +56,11 @@
 }
 .status-usuario-conectado{
     font-size: xx-small;
+    color: gray;
 }
 
 .btn-nuevo-chat{
-    background-color: mediumorchid;
+    background-color: #a491d2;
     color: white;
     text-decoration: none;
     padding: 1rem;
@@ -79,20 +85,27 @@
     align-items: center;
 }
 
-.datos-usuario-contacto{
-    padding: 0.4rem;
-}
-
-.nombre-usuario-contacto{
-    font-size: 12px;
-}
-
-status-usuario-contacto{
-    font-size: 12px;
-}
-
 .avatar-usuario-contacto img{
     border-radius: 50%;
     width: 48px;
     height: 48px;
+}
+.datos-usuario-contacto{
+    padding: 0.4rem;
+}
+.nombre-usuario-contacto{
+    font-size: 12px;
+}
+status-usuario-contacto{
+    font-size: 12px;
+}
+
+.texto-imagen-grande{
+    font-size: 45px;
+    padding: 1rem;
+}
+
+.texto-imagen-grande-2{
+    font-size: 16px;
+    padding: 0.5rem;
 }
